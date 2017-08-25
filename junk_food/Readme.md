@@ -62,3 +62,7 @@ ind 0: nome: _nome, qtd: _qtd, valor: _value
 ind 1: nome: _nome, qtd: _qtd, valor: _value
 ...
 ```
+
+## Diagrama
+![](diagrama.png)
+
