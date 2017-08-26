@@ -6,41 +6,41 @@ O objetivo dessa atividade é implementar uma classe responsável por uma máqui
 
 Ela deve ser capaz de:
 
-* [1 PB] Receber dinheiro do usuário.
+* [1P] Receber dinheiro do usuário.
 
 ```
 >> inserirDin _valor
 sucesso/erro
 ```
 
-* [1 PB] Mostrar o saldo da máquina
+* [1P] Mostrar o saldo da máquina
 
 ```
 >> saldo
 _saldo Reais
 ```
-* [1 PB] Pedir troco, zerando o saldo da máquina
+* [1P] Pedir troco, zerando o saldo da máquina
 
 ```
 >> pedirTroco
 voce retirou _valor Reais
 ```
-* [1 PB] Iniciar a máquina definindo o número de espirais.
+* [1P] Iniciar a máquina definindo o número de espirais.
 * Se já havia máquina, então apague tudo e inicie uma nova máquina. 
 
 ```
 >> iniciar _qtd
 ok
 ```
-* [1 PB] O admin pode alterar o nome, a quantidade e o valor de um produto na espiral.
-* [2 PP] Cheque se índice, qtd e valor são válidos e nome não é vazio.
+* [1P] O admin pode alterar o nome, a quantidade e o valor de um produto na espiral.
+* [2E] Cheque se índice, qtd e valor são válidos e nome não é vazio.
 
 ```
 >> alterarProd _ind _nome _qtd _valor
 ok/erro
 ```
-* [1 PB] O cliente pode pedir um produto de um espiral. 
-* [1 PP] Verifique se existe o produto e se o valor é suficiente.
+* [1P] O cliente pode pedir um produto de um espiral. 
+* [1E] Verifique se existe o produto e se o valor é suficiente.
 * Mostre o nome do produto que ele pediu.
 
 ```
@@ -49,7 +49,7 @@ ok/erro(produto nao existe)/erro(valor insuficiente)
 Voce comprou um _nome
 ```
 
-* [1 PB] O admin pode mostrar o status completo da maquina 
+* [1P] O admin pode mostrar o status completo da maquina 
     * saldo cliente.
     * lucro total.
     * conteúdo de cada espiral.
@@ -63,7 +63,7 @@ ind 1: nome: _nome, qtd: _qtd, valor: _value
 ...
 ```
 
-* [1PB] Faça um código de inicialização para o sistema já iniciar com alguns produtos nas espirais.
+* [1P] Faça um código de inicialização para o sistema já iniciar com alguns produtos nas espirais.
 
 ## Diagrama
 ![](diagrama.png)
