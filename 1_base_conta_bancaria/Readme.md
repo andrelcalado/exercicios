@@ -45,6 +45,6 @@ Ela deve ser capaz de:
 
 ## Diagrama de Classes
 
-O diagrama é uma **sugestão** de métodos e parâmetros. Sinta-se livre para alterar conforme sua necessidade.
+O diagrama é uma **sugestão** de métodos e parâmetros. Sinta-se livre para alterar conforme sua necessidade. Os métodos gets e sets são omitidos em diagramas de classes.
 
 ![](diagrama.png)

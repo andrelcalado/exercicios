@@ -65,6 +65,12 @@ ind 1: nome: _nome, qtd: _qtd, valor: _value
 
 * [1P] Faça um código de inicialização para o sistema já iniciar com alguns produtos nas espirais.
 
+## Dica
+
+- No contrutor da máquina receba a quantidade qtd de espirais. 
+- Inicie seu vetor com qtd espirais. 
+- Você pode fazer um laço para inserir qtd espirais "zeradas" no vetor.
+
 ## Diagrama
 ![](diagrama.png)
 
