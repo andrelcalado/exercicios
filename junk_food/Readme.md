@@ -39,7 +39,7 @@ ok
 >> alterarProd _ind _nome _qtd _valor
 ok/erro
 ```
-* [2 PB] O cliente pode pedir um produto de um espiral. 
+* [1 PB] O cliente pode pedir um produto de um espiral. 
 * [1 PP] Verifique se existe o produto e se o valor é suficiente.
 * Mostre o nome do produto que ele pediu.
 
@@ -62,6 +62,8 @@ ind 0: nome: _nome, qtd: _qtd, valor: _value
 ind 1: nome: _nome, qtd: _qtd, valor: _value
 ...
 ```
+
+* [1PB] Faça um código de inicialização para o sistema já iniciar com alguns produtos nas espirais.
 
 ## Diagrama
 ![](diagrama.png)
