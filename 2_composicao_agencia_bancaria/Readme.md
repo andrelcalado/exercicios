@@ -86,10 +86,11 @@ Expanda a atividade nível 1 Conta Bancária e adicione os novos requisitos.
         erro | cliente não logado
 
 ---
-- **[3P]** Realizar operações de saldo, saque, depósito e extrato, tal como foi
+- **[1P]** Realizar operações de saldo, saque, depósito e extrato, tal como foi
 implementado no primeiro trabalho.
 - Cliente só pode fazer operações em suas próprias contas.
 - Cliente precisa estar logado.
+
         >> saldo $conta
         >> saque $conta $valor
         >> deposito $conta $valor
