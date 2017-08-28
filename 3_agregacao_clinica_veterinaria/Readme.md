@@ -1,23 +1,52 @@
-# Clínica Veterinária
+## Clínica Veterinária
 ![](foto.jpg)
+
+Você deve ser capaz de desenvolver um sistema de uma clínica veterinária que deve ser capaz de:
+
 ## Requisitos Parte 1
 
-- Cadastro de clientes pelo cpf
-- Cadastro de animais
-- Cada animal precisa pertencer um cliente
-- Cada animal deve ter nome e espécie
-- Cliente tem cpf único no sistema
-- Um cliente não pode ter dois animais com o mesmo nome
+* [0.5P] Cadastrar clientes pelo CPF
+```
+>> cadastrarClient _cpf _nome _email
+Cliente cadastrado
+```
+* [1P] Cadastrar animais no nome de um cliente
+```
+cadastrarAnimal _cpfDono _nomeAnimal _racaAnimal
+```
+* Cada animal precisa pertencer um cliente
+* [0.5P] Cada animal deve ter nome e espécie
+* [0.5P] Cliente tem cpf único no sistema
+* [1P] Um cliente não pode ter dois animais com o mesmo nome
 
 ## Requisitos Parte 2
 
-- Existem varios servicos no petshop (consulta, banho, tosa)
-- Cada servico tem seu preço
-- O sistema deve ser capaz de cadastrar os serviços
-- O cliente deve ser capaz de vender os serviços aos animais dos clientes.
-- O sistema deve manter o registro das vendas
-- O sistema deve guardar quanto dinheiro a clínica ganhou com as vendas dos serviços
-
+* Mostrar os vários serviços que existem na clínica (consulta, banho, tosa)
+```
+>> mostrarServicos
+[servico1 preco1] [servico2 preco2] ...
+```
+* [0.5P] Cada serviço tem seu preço
+* [1P] O sistema deve ser capaz de cadastrar os serviços
+```
+>> cadastrarServico _nome _preco
+Servico cadastrado/Erro
+```
+* [1P] A clínica deve ser capaz de vender (fornecer) os serviços aos animais dos clientes.
+```
+>> venderServico _nomeCliente _nomeAnimal _nomeServico
+Sucesso/Erro
+```
+* [3P] O sistema deve manter o registro das vendas
+```
+>> mostrarVendas
+[nomeCliente nomeAnimal nomeServico] [nomeCliente nomeAnimal nomeServico]
+```
+* [1P] O sistema deve guardar quanto dinheiro a clínica ganhou com as vendas dos serviços
+```
+>> saldoClinica
+valorSaldo
+```
 
 ## Sugestão de Diagrama de classes
 
