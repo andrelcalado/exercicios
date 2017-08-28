@@ -8,11 +8,12 @@ Você deve ser capaz de desenvolver um sistema de uma clínica veterinária que 
 * [0.5P] Cadastrar clientes pelo CPF
 ```
 >> cadastrarClient _cpf _nome _email
-Cliente cadastrado
+Cliente cadastrado/Erro
 ```
 * [1P] Cadastrar animais no nome de um cliente
 ```
 cadastrarAnimal _cpfDono _nomeAnimal _racaAnimal
+Animal cadastrado/Erro
 ```
 * Cada animal precisa pertencer um cliente
 * [0.5P] Cada animal deve ter nome e espécie
