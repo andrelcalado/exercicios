@@ -6,41 +6,50 @@ O objetivo dessa atividade é implementar uma classe responsável por uma máqui
 
 Ela deve ser capaz de:
 
-* [1P] Receber dinheiro do usuário.
+* **[1P]** Receber dinheiro do usuário.
 
 ```
 >> inserirDin _valor
 sucesso/erro
 ```
 
-* [1P] Mostrar o saldo da máquina
+---
+* **[1P]** Mostrar o saldo da máquina
 
 ```
 >> saldo
 _saldo Reais
 ```
-* [1P] Pedir troco, zerando o saldo da máquina
+
+---
+* **[1P]** Pedir troco, zerando o saldo da máquina
 
 ```
 >> pedirTroco
 voce retirou _valor Reais
 ```
-* [1P] Iniciar a máquina definindo o número de espirais.
-* Se já havia máquina, então apague tudo e inicie uma nova máquina. 
+
+---
+* **[1P]** Iniciar a máquina definindo o número de espirais.
+* Se já havia máquina, então apague tudo e inicie uma nova máquina.
 
 ```
 >> iniciar _qtd
 ok
 ```
-* [1P] O admin pode alterar o nome, a quantidade e o valor de um produto na espiral.
-* [2E] Cheque se índice, qtd e valor são válidos e nome não é vazio.
+
+---
+* **[1P]** O admin pode alterar o nome, a quantidade e o valor de um produto na espiral.
+* **[2E]** Cheque se índice, qtd e valor são válidos e nome não é vazio.
 
 ```
 >> alterarProd _ind _nome _qtd _valor
 ok/erro
 ```
-* [1P] O cliente pode pedir um produto de um espiral. 
-* [1E] Verifique se existe o produto e se o valor é suficiente.
+
+---
+* **[1P]** O cliente pode pedir um produto de um espiral.
+* **[1E]** Verifique se existe o produto e se o valor é suficiente.
 * Mostre o nome do produto que ele pediu.
 
 ```
@@ -49,7 +58,8 @@ ok/erro(produto nao existe)/erro(valor insuficiente)
 Voce comprou um _nome
 ```
 
-* [1P] O admin pode mostrar o status completo da maquina 
+---
+* **[1P]** O admin pode mostrar o status completo da maquina
     * saldo cliente.
     * lucro total.
     * conteúdo de cada espiral.
@@ -63,14 +73,17 @@ ind 1: nome: _nome, qtd: _qtd, valor: _value
 ...
 ```
 
-* [1P] Faça um código de inicialização para o sistema já iniciar com alguns produtos nas espirais.
+---
+* **[1P]** Faça um código de inicialização para o sistema já iniciar com alguns produtos nas espirais.
+
 
 ## Dica
 
-- No contrutor da máquina receba a quantidade qtd de espirais. 
-- Inicie seu vetor com qtd espirais. 
+- No contrutor da máquina receba a quantidade qtd de espirais. Depois de inicializado,
+a quantidade de espirais não muda. Uma espiral pode contem qualquer quantidade de
+produtos do mesmo tipo.
+- Inicie todos os valores do vetor de espirais.
 - Você pode fazer um laço para inserir qtd espirais "zeradas" no vetor.
 
 ## Diagrama
 ![](diagrama.png)
-
