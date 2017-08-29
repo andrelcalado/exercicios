@@ -1,4 +1,4 @@
-## Conta Bancária
+## Agencia Bancária
 ![](imagem.jpg)
 
 O objetivo dessa atividade é implementar uma agência bancária simplificada. Deve ser capaz de cadastrar cliente. Cada cliente pode ter várias contas. Uma conta não pode existir se não estiver viculada a um cliente.
