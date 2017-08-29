@@ -43,7 +43,7 @@ ok
 * **[2E]** Cheque se índice, qtd e valor são válidos e nome não é vazio.
 
 ```
->> alterarProd _ind _nome _qtd _valor
+>> alterarEspiral _ind _nome _qtd _valor
 ok/erro
 ```
 
@@ -79,11 +79,60 @@ ind 1: nome: _nome, qtd: _qtd, valor: _value
 
 ## Dica
 
-- No contrutor da máquina receba a quantidade qtd de espirais. Depois de inicializado,
-a quantidade de espirais não muda. Uma espiral pode contem qualquer quantidade de
-produtos do mesmo tipo.
-- Inicie todos os valores do vetor de espirais.
-- Você pode fazer um laço para inserir qtd espirais "zeradas" no vetor.
+- Faça primeiro a classe Espiral. Garanta que existe um construtor default seja sem parâmetros ou com todos os parametros com valores default.
+- No contrutor da class Maquina receba a quantidade de espirais. Para iniciar o vetor de espirais você pode fazer um laço inserindo qtd Espirais no vetor.
+- Exemplo c++
+
+```c++
+//c++
+struct Espiral{
+    string nome;
+    int qtd;
+    float value;
+    Espiral(int qtd = 0, string nome = "", float value = 0.0f){
+        ...
+    }
+};
+
+class Maquina{
+    vector<Espiral> espirais;
+
+    //modo feio que funciona
+    Maquina(int qtd){
+        for(int i = 0; i < qtd; i++)
+            espirais.push_back(Espiral());
+    }
+
+    //modo charmoso usando lista de inicialização
+    Maquina(int qtd):
+        espirais(qtd);
+    {}
+
+}
+```
+
+- Exemplo Python
+
+```python
+class Espiral:
+    def __init__(self, qtd = 0, nome = "", value = 0.0):
+        self.qtd = qtd
+        self.nome = nome
+        self.value = value
+
+
+class Maquina:
+    #modo bruto, mas que funciona
+    def __init__(self, qtd):
+        self.espirais = []
+        for i in range(qtd):
+            self.espirais.append(Espiral())
+
+    #modo charmoso usando list-comprehension
+    def __init__(self, qtd):
+        self.espirais = [Espiral() for i in range(qtd)]
+```
+
 
 ## Diagrama
 ![](diagrama.png)
