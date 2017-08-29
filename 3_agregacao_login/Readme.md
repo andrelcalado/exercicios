@@ -7,6 +7,8 @@ usuários.
 
 Os requisitos são os seguintes.
 
+---
+
 ## Requisitos Parte 1
 
 - [0.5P] Todo contato deve ter um nome e opcionalmente um email.
@@ -46,6 +48,7 @@ Os requisitos são os seguintes.
 
 - [0.3P]Cada telefone pode ter uma descrição. Ex: Oi, Tim, Fixo, Trabalho
 
+---
 
 ## Requisitos Parte 2
 
@@ -72,6 +75,8 @@ Os requisitos são os seguintes.
 
 - [0.8P] Sempre que mostrar os contatos, seja em busca ou favoritos, estes devem ser apresentados ordenados alfabeticamente pelo nome.
 
+---
+
 ## Requisitos Parte 3
 
 - [0.5] Deve ser possível criar contas fornecendo login e senha
@@ -84,6 +89,8 @@ Os requisitos são os seguintes.
 - [0.5] Cada login tem uma Agenda própria separado dos outros usuários do sistema.
 - [0.4] Não devem existir dois usuários com o mesmo login no sistema.
 
+---
+
 ## Atividade
 
 - Adapte as antigas classes Contato e Agenda conforme os novos requisitos.
@@ -95,6 +102,8 @@ o programa, já estarem cadastrados alguns logins e contatos.
 **Importante**
 
 Para interação com o usuário tente criar uma classe que fará apenas isso. Como sugestão, crie uma classe GUI que gerencia o Sistema em uma relação de Agregação.
+
+---
 
 ## Diagrama de Classes
 
