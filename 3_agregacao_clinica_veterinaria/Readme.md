@@ -3,6 +3,8 @@
 
 Você deve ser capaz de desenvolver um sistema de uma clínica veterinária que deve ser capaz de:
 
+---
+
 ## Requisitos Parte 1
 
 * [0.5P] Cadastrar clientes pelo CPF
@@ -19,6 +21,8 @@ Animal cadastrado/Erro
 * [0.5P] Cada animal deve ter nome e espécie
 * [0.5P] Cliente tem cpf único no sistema
 * [1P] Um cliente não pode ter dois animais com o mesmo nome
+
+---
 
 ## Requisitos Parte 2
 
@@ -48,6 +52,8 @@ Sucesso/Erro
 >> saldoClinica
 valorSaldo
 ```
+
+---
 
 ## Sugestão de Diagrama de classes
 
