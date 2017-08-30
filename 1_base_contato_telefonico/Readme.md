@@ -1,5 +1,6 @@
 # Contato Telefônico
 ![](imagem.png)
+
 O objetivo dessa atividade é implementar uma classe responsável por guardar um **único** contato da agenda telefônica do seu celular. Cada contato pode ter vários telefones e email.
 
 ## Requisitos de contatos
@@ -7,17 +8,17 @@ Seu sistema deve poder:
 
 - [1P] Iniciar contato com o nome. Se já havia contato, inicie um novo contato.
 
-        >> iniciar _nome
+        >> iniciar $nome
         contato criado
 
 - [1P] Mudar o nome do contato.
 
-        >> setNome _nome
+        >> setNome $nome
         Nome atualizado
 
 - [1P] Mudar o email do contato
 
-        >> setMail _mail
+        >> setMail $mail
         email atualizado
 
 - [2P] Inserir telefones no contato.
@@ -25,22 +26,25 @@ Seu sistema deve poder:
 - [1E] Não aceite dois telefones com o mesmo número.
 - [1E] Verifique se o número contém apenas dígitos.
 
-        >> addFone _desc _number
-        ok/error
+        >> addFone $desc $number
+        ok
+        erro | telefone duplicado
+        erro | telefone deve conter apenas dígitos
 
 - [1E] Remover os telefones pelo número
 
-        >> rmFone _number
-        numero removido/numero nao encontrado
+        >> rmFone $number
+        fone removido
+        fone nao encontrado
 
 - [1P] Mostrar o contato(nome e email)
 - [1P] Mostrar o contato(telefones)
 
         >> mostrar
-        Nome: _nome, Email: _email
-        Fone1 Desc1
+        Nome: $nome, Email: $email
+        $Fone1 $Desc1
         ...
-        FoneN DescN
+        $FoneN $DescN
 
 - [1P] Inicie seu sistema com um contato iniciado e alguns telefones inseridos.
 
