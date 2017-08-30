@@ -24,7 +24,7 @@ Seu sistema deve poder:
 - [2P] Inserir telefones no contato.
 - Um telefone tem um número e uma descrição.
 - [1E] Não aceite dois telefones com o mesmo número.
-- [1E] Verifique se o número contém apenas dígitos.
+- [1E] Verifique se o número contém apenas dígitos ou os caracteres "()-".
 
         >> addFone $desc $number
         ok
