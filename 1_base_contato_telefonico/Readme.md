@@ -56,4 +56,4 @@ Seu sistema deve poder:
 ## Diagrama UML
 Métodos get e set omitidos.
 
-![](diagrama.png)
+![](diag.png)
