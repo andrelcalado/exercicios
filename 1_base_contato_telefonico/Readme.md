@@ -11,16 +11,19 @@ Seu sistema deve poder:
         >> iniciar $nome
         contato criado
 
+---
 - [1P] Mudar o nome do contato.
 
         >> setNome $nome
         Nome atualizado
 
+---
 - [1P] Mudar o email do contato
 
         >> setMail $mail
         email atualizado
 
+---
 - [2P] Inserir telefones no contato.
 - Um telefone tem um número e uma descrição.
 - [1E] Não aceite dois telefones com o mesmo número.
@@ -29,23 +32,26 @@ Seu sistema deve poder:
         >> addFone $desc $number
         ok
         erro | telefone duplicado
-        erro | telefone deve conter apenas dígitos
+        erro | telefone com caracteres invalidos
 
+---
 - [1E] Remover os telefones pelo número
 
         >> rmFone $number
         fone removido
         fone nao encontrado
 
+---
 - [1P] Mostrar o contato(nome e email)
 - [1P] Mostrar o contato(telefones)
 
         >> mostrar
         Nome: $nome, Email: $email
-        $Fone1 $Desc1
+        $Number1 $Desc1
         ...
-        $FoneN $DescN
+        $NumberN $DescN
 
+---
 - [1P] Inicie seu sistema com um contato iniciado e alguns telefones inseridos.
 
 ## Atividade
