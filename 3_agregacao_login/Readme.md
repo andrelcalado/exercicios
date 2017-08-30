@@ -9,97 +9,94 @@ Os requisitos são os seguintes.
 
 ---
 
-## Requisitos Parte 1
+## Funcionalidades
 
-- [0.5P] Todo contato deve ter um nome e opcionalmente um email.
-- [0.4P] O nome do contato não pode ser vazio.
-- [0.4P] Deve ser possível alterar o nome e o email.
+ **[2P]** Parte 01
 
-  ```
-  >> alterarNome $novoNome
-    Nome alterado para $novoNome
-    ------
-    erro | nome não pode ser nulo
-  ```
+* Uma agenda possui vários Contatos.
+* Deve ser possível inserir, remover, alterar e buscar contatos.
 
-  ```
-  >> alterarEmail $novoEmail
-    Email alterado para $novoEmail
-    ------
-    erro | email não pode ser nulo
-    erro | email deve seguir o modelo a@b.c
-  ```
-
-- [0.5P] O contato pode ter vários telefones.
-- [0.4P] Telefones não devem ser vazios.
-- [0.9P] Não deve ser possível inserir dois números de telefones iguais.
+- *[0.5P]* Inserir contato.
+  *restrições*:
+  - Todo contato deve ter um nome e opcionalmente um email.
+  - O nome do contato não pode ser vazio.
+  - Não deve ser permitido dois contatos com o mesmo nome.
+  - Um email deve seguir o modelo a@b.c, contendo arroba e ponto nessa ordem.
 
   ```
-  >> adicionarTelefone $numero
-    $numero adicionado com sucesso
-    ------
-    erro | numero não pode ser nulo
-    erro | telefone deve ser constituido apenas de digitos
-
+  >> inserirContato $contato
+  Contato adicionado
+  ------
+  Erro | Nome do contato não pode ser vazio.
+  Erro | Não é permitido dois contatos com o mesmo nome.
+  Erro | O email deve obedecer o padrão "a@b.c".
   ```
 
-- [0.7P] Um email deve seguir o modelo a@b.c, contendo arroba e ponto nessa ordem.
-- [0.7P] Um telefone deve ser composto apenas por digitos.
+- *[0.5P]* Remover contato.
+  *restrições*:
+  - Remover contato a partir de um nome.
+  ```
+  >> removerContato $nome
+  Contato removido || Contato inexistente
+  ```
+- *[0.5P]* Alterar Contato  
+  *restrições*
+  - Deve ser possível alterar o nome e o email.
+- *[0.5P]* Buscar contato
+  - Deve ser possível buscar contato a partir de um nome.
+  ```
+  >> buscarContato $contato
+  $contato || Contato inexistente
+  ```
+---
 
-- [0.3P]Cada telefone pode ter uma descrição. Ex: Oi, Tim, Fixo, Trabalho
+**[2P]** Parte 02
+
+- *[0.5P]* Inserir telefone.
+  *restrições*:
+  - Telefones não devem ser vazios.
+  - Não deve ser possível inserir dois números de telefones iguais.
+  - Um telefone deve ser composto apenas por digitos.
+  - Cada telefone pode ter uma descrição. Ex: Oi, Tim, Fixo, Trabalho.
+  ```
+  >> inserirTelefone $telefone
+  Telefone adicionado
+  ------
+  Erro | Telefone não pode ser vazio.
+  Erro | Não é permitido dois telefones repetidos.
+  Erro | O telefone deve ser composto apenas por digitos.
+  ```
+- *[0.5P]* Remover telefone.
+  *restrições*:
+  - Remover telefone a partir do numero.
+  ```
+  >> removerContato $numero
+  Telefone removido || Telefone inexistente
+  ```
+- *[0.5P]* Retornar todos os telefone de um contato.
+- *[0.5P]* Retornar quantidade de telefones de um contato.  
 
 ---
 
-## Requisitos Parte 2
+**[6P]** Parte 03
 
-- [0.4]Uma agenda possui vários Contatos.
-- [0.9P]Deve ser possível inserir, remover, alterar e buscar contatos.
-
-  ```
-  >>inserir $contato
-  $contato adicionado com sucesso
-  ------
-  erro | contato não pode ser nulo
-  ```
-
-- [0.4P] Deve ser possível buscar contatos por padrão(substring). Dado um padrão, o sistema deve retornar todos os contatos que contém esse padrão como parte dos seus campos.
-- [0.4P] Não deve ser permitido dois contatos com o mesmo nome.
-- [0.9P] Deve ser possível favoritar, desfavoritar contatos e pegar favoritos.
-
-  ```
-  >>favoritar $contato
-  $contato foi adicionado a lista de favoritos
-  ------
-  erro | contato não pode ser nulo.
-  ```
-
-- [0.8P] Sempre que mostrar os contatos, seja em busca ou favoritos, estes devem ser apresentados ordenados alfabeticamente pelo nome.
+- *[1.5P]* Deve ser possível buscar contatos por padrão(substring). Dado um padrão, o sistema deve retornar todos os contatos que contém esse padrão como parte dos seus campos.
+- *[1.5P]* Deve ser possível favoritar, desfavoritar contatos e pegar favoritos.
+- Sempre que mostrar os contatos, seja em busca ou favoritos, estes devem ser apresentados ordenados alfabeticamente pelo nome.
+- *[1P]* Deve ser possível criar contas fornecendo login e senha.
+- *[1P]* Não devem existir dois usuários com o mesmo login no sistema.
 
 ---
 
-## Requisitos Parte 3
+**[1P]** Parte 04
 
-- [0.5] Deve ser possível criar contas fornecendo login e senha
-
-  ```
-  >>criarConta $login $senha
-  ------
-  erro | $login ou $senha invalida
-  ```
-- [0.5] Cada login tem uma Agenda própria separado dos outros usuários do sistema.
-- [0.4] Não devem existir dois usuários com o mesmo login no sistema.
-
----
-
-## Atividade
-
-- Adapte as antigas classes Contato e Agenda conforme os novos requisitos.
 - Implemente a class Sistema.
-- Faça uma processo de inicialização do Sistema em código para ao abrir
-o programa, já estarem cadastrados alguns logins e contatos.
+- Faça uma processo de inicialização do Sistema em código para ao abrir o programa, já estarem cadastrados alguns logins e contatos.
 - Faça a interação com o usuário para utilizar o Sistema.
 
-**Importante**
+---
+
+**[1E]**
 
 Para interação com o usuário tente criar uma classe que fará apenas isso. Como sugestão, crie uma classe GUI que gerencia o Sistema em uma relação de Agregação.
 
