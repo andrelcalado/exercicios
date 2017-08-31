@@ -9,7 +9,7 @@ Ela deve ser capaz de:
 * **[1P]** Receber dinheiro do usuário.
 
 ```
->> inserirDin _valor
+>> inserirDin $valor
 sucesso/erro
 ```
 
@@ -18,7 +18,7 @@ sucesso/erro
 
 ```
 >> saldo
-_saldo Reais
+$saldo Reais
 ```
 
 ---
@@ -26,15 +26,15 @@ _saldo Reais
 
 ```
 >> pedirTroco
-voce retirou _valor Reais
+voce retirou $valor Reais
 ```
 
 ---
-* **[1P]** Iniciar a máquina definindo o número de espirais.
+* **[1P]** Iniciar a máquina definindo o número de espirais e a quantidade máxima de produtos em uma espiral.
 * Se já havia máquina, então apague tudo e inicie uma nova máquina.
 
 ```
->> iniciar _qtd
+>> iniciar $qtdEspirais $maxProdutos
 ok
 ```
 
@@ -43,8 +43,10 @@ ok
 * **[2E]** Cheque se índice, qtd e valor são válidos e nome não é vazio.
 
 ```
->> alterarEspiral _ind _nome _qtd _valor
-ok/erro
+>> alterarEspiral $ind $nome $qtd $valor
+ok
+erro | indice invalido
+erro | qtd maior que o permitido
 ```
 
 ---
@@ -53,9 +55,10 @@ ok/erro
 * Mostre o nome do produto que ele pediu.
 
 ```
->> comprar _ind
-ok/erro(produto nao existe)/erro(valor insuficiente)
-Voce comprou um _nome
+>> comprar $ind
+ok | você comprou um $nome
+erro | produto nao existe
+erro | valor insuficiente
 ```
 
 ---
@@ -66,10 +69,10 @@ Voce comprou um _nome
 
 ```
 >> status
-saldo: _saldo
-lucro: _lucro
-ind 0: nome: _nome, qtd: _qtd, valor: _value
-ind 1: nome: _nome, qtd: _qtd, valor: _value
+saldo: $saldo
+lucro: $lucro
+ind 0: nome: $nome, qtd: $qtd, valor: $value
+ind 1: nome: $nome, qtd: $qtd, valor: $value
 ...
 ```
 
