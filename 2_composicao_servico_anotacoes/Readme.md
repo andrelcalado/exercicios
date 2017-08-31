@@ -74,4 +74,4 @@ armazenar notas de texto contendo título e texto.
 - **[1P]** Inicialize seu sistema com alguns usuários e algumas notas.
 
 # Diagrama
-![](diag.png)
+![](diagrama.png)
