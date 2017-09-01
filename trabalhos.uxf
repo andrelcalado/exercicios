@@ -3,8 +3,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>170</x>
-      <y>210</y>
+      <x>180</x>
+      <y>150</y>
       <w>100</w>
       <h>30</h>
     </coordinates>
@@ -15,8 +15,8 @@ bg=green</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>330</x>
-      <y>210</y>
+      <x>340</x>
+      <y>150</y>
       <w>140</w>
       <h>30</h>
     </coordinates>
@@ -27,8 +27,8 @@ bg=green</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>530</x>
-      <y>210</y>
+      <x>540</x>
+      <y>150</y>
       <w>150</w>
       <h>30</h>
     </coordinates>
@@ -39,8 +39,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLPackage</id>
     <coordinates>
-      <x>130</x>
-      <y>410</y>
+      <x>140</x>
+      <y>350</y>
       <w>610</w>
       <h>90</h>
     </coordinates>
@@ -53,8 +53,8 @@ layer=-1</panel_attributes>
   <element>
     <id>UMLPackage</id>
     <coordinates>
-      <x>130</x>
-      <y>60</y>
+      <x>140</x>
+      <y>0</y>
       <w>610</w>
       <h>90</h>
     </coordinates>
@@ -67,8 +67,8 @@ layer=-1</panel_attributes>
   <element>
     <id>UMLPackage</id>
     <coordinates>
-      <x>130</x>
-      <y>290</y>
+      <x>140</x>
+      <y>230</y>
       <w>610</w>
       <h>90</h>
     </coordinates>
@@ -81,8 +81,8 @@ layer=-1</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>170</x>
-      <y>330</y>
+      <x>180</x>
+      <y>270</y>
       <w>100</w>
       <h>30</h>
     </coordinates>
@@ -93,8 +93,8 @@ bg=green</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>540</x>
-      <y>330</y>
+      <x>550</x>
+      <y>270</y>
       <w>140</w>
       <h>30</h>
     </coordinates>
@@ -105,8 +105,8 @@ bg=green</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>330</x>
-      <y>330</y>
+      <x>340</x>
+      <y>270</y>
       <w>150</w>
       <h>30</h>
     </coordinates>
@@ -117,8 +117,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>550</x>
-      <y>450</y>
+      <x>590</x>
+      <y>390</y>
       <w>140</w>
       <h>30</h>
     </coordinates>
@@ -129,8 +129,8 @@ bg=green</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>470</x>
-      <y>330</y>
+      <x>480</x>
+      <y>270</y>
       <w>90</w>
       <h>30</h>
     </coordinates>
@@ -140,8 +140,8 @@ bg=green</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>390</x>
-      <y>230</y>
+      <x>400</x>
+      <y>170</y>
       <w>30</w>
       <h>120</h>
     </coordinates>
@@ -151,8 +151,8 @@ bg=green</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>220</x>
-      <y>230</y>
+      <x>230</x>
+      <y>170</y>
       <w>30</w>
       <h>120</h>
     </coordinates>
@@ -162,20 +162,20 @@ bg=green</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>340</x>
-      <y>450</y>
+      <x>420</x>
+      <y>390</y>
       <w>140</w>
       <h>30</h>
     </coordinates>
     <panel_attributes>Veterinária
-bg=green</panel_attributes>
+bg=yellow</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>160</x>
-      <y>450</y>
+      <x>170</x>
+      <y>390</y>
       <w>140</w>
       <h>30</h>
     </coordinates>
@@ -186,8 +186,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>220</x>
-      <y>350</y>
+      <x>230</x>
+      <y>290</y>
       <w>30</w>
       <h>120</h>
     </coordinates>
@@ -197,8 +197,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLPackage</id>
     <coordinates>
-      <x>130</x>
-      <y>170</y>
+      <x>140</x>
+      <y>110</y>
       <w>610</w>
       <h>90</h>
     </coordinates>
@@ -211,8 +211,8 @@ layer=-1</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>140</x>
-      <y>100</y>
+      <x>150</x>
+      <y>40</y>
       <w>160</w>
       <h>30</h>
     </coordinates>
@@ -223,8 +223,8 @@ bg=green</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>550</x>
-      <y>100</y>
+      <x>560</x>
+      <y>40</y>
       <w>180</w>
       <h>30</h>
     </coordinates>
@@ -235,13 +235,241 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>290</x>
-      <y>100</y>
+      <x>300</x>
+      <y>40</y>
       <w>280</w>
       <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 Sugestão de Pré-Requisito</panel_attributes>
     <additional_attributes>260.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>140</x>
+      <y>470</y>
+      <w>610</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>NxN
+--
+bg=gray
+layer=-1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>160</x>
+      <y>510</y>
+      <w>140</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Médico-Paciente
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>550</x>
+      <y>510</y>
+      <w>170</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Notas Compartilhadas
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>350</x>
+      <y>510</y>
+      <w>150</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Conta Conjunta
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>680</x>
+      <y>270</y>
+      <w>110</w>
+      <h>270</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>40.0;250.0;90.0;250.0;90.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>390</x>
+      <y>290</y>
+      <w>30</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;220.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>140</x>
+      <y>760</y>
+      <w>610</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Polimorfismo de Classe com Interface
+--
+bg=gray
+layer=-1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>140</x>
+      <y>590</y>
+      <w>610</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Polimorfismo de Classe com Herança
+--
+bg=gray
+layer=-1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>400</x>
+      <y>630</y>
+      <w>150</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Contas Bancárias
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>590</x>
+      <y>630</y>
+      <w>140</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Trem Carga
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>150</x>
+      <y>630</y>
+      <w>220</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Professor - Sta - Terceirizado
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>520</x>
+      <y>410</y>
+      <w>160</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>140.0;220.0;10.0;170.0;10.0;60.0;140.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>420</x>
+      <y>530</y>
+      <w>30</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;100.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>600</x>
+      <y>810</y>
+      <w>140</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Trem GreenPeace
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>400</x>
+      <y>810</y>
+      <w>150</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Mercantil
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>180</x>
+      <y>810</y>
+      <w>150</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Roda Roda Jekiti
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>390</x>
+      <y>680</y>
+      <w>180</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Carrinho de Compras
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>470</x>
+      <y>700</y>
+      <w>30</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;110.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>650</x>
+      <y>650</y>
+      <w>30</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;160.0;10.0;10.0</additional_attributes>
   </element>
 </diagram>
