@@ -26,9 +26,9 @@ Seu sistema deverá:
 ---
 - **[2.0 P]** Inserir telefones no contato.
     - Um telefone tem um foneid e uma descrição.
-    - Identificadores serão nomes como oi, tim, casa, trabalho.
-- **[1.0 E]** Não aceite dois telefones com o mesmo foneid.
-- **[1.0 E]** Verifique se o número contém apenas dígitos ou os caracteres "()-".
+    - Identificadores serão nomes como: casa | fixo | oi | tim | recado.
+    - **[1.0 E]** Não aceite dois telefones com o mesmo foneid.
+    - **[1.0 E]** Verifique se o número contém apenas dígitos ou os caracteres "()-".
 
         >> addFone $foneid $number
         ok
