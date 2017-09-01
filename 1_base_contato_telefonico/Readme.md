@@ -29,13 +29,12 @@ Seu sistema deverá:
     - Identificadores serão nomes como: casa | fixo | oi | tim | recado.
     - **[1.0 E]** Não aceite dois telefones com o mesmo foneid.
     - **[1.0 E]** Verifique se o número contém apenas dígitos ou os caracteres "()-".
-
-
+```
         >> addFone $foneid $number
         ok
         erro | $foneid duplicado
         erro | $number com caracteres invalidos
-
+```
 ---
 - **[1.0 E]** Remover os telefones pelo $foneid
 
