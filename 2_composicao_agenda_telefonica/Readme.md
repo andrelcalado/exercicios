@@ -6,7 +6,7 @@ Ampliando a atividade de contatos do nível 1, vamos criar uma agenda que gerenc
 
 ## Funcionalidades
 
-- **[P]** Deverá adicionar contatos usando um nome.
+- **[1.0 P]** Deverá adicionar contatos usando um nome.
 - Não deve ser possível adicionar dois contatos com o mesmo nome.
 
         >> addContato $nome
@@ -15,7 +15,7 @@ Ampliando a atividade de contatos do nível 1, vamos criar uma agenda que gerenc
         erro | contato já existe
 
 ---
-- **[P]** Remover um contatos pelo nome.
+- **[1.0 P]** Remover um contatos pelo nome.
 
         >> rmContato $nome
         contato removido
@@ -23,7 +23,7 @@ Ampliando a atividade de contatos do nível 1, vamos criar uma agenda que gerenc
         erro | contato não existe
 
 ---
-- **[P]** Deverá adicionar telefones ao contato.
+- **[1.0 P]** Deverá adicionar telefones ao contato.
 - Telefones tem identificador e número.
 - Identificadores serão strings como (casa | fixo | oi | tim | recado).
 - Não deve ser possível adicionar dois telefones com o mesmo identificador no mesmo contato.
@@ -37,7 +37,7 @@ Ampliando a atividade de contatos do nível 1, vamos criar uma agenda que gerenc
         erro | nome não existe
 
 ---
-- **[P]** Deverá remover telefones do contato pelo foneid.
+- **[1.0 P]** Deverá remover telefones do contato pelo foneid.
 
         >> rmFone $nome $foneid
         ok
@@ -47,8 +47,8 @@ Ampliando a atividade de contatos do nível 1, vamos criar uma agenda que gerenc
 
 
 ---
-- **[P]** Mostrar os contatos.
-- **[E]** Ordene os contatos pelo nome.
+- **[1.0 P]** Mostrar os contatos.
+- **[1.0 E]** Ordene os contatos pelo nome.
 - Se fizer a parte de favoritos, marque os contatos que são favoritados com um @ antes do nome. Se não for favorito use -.
 
         >> showContatos
@@ -57,7 +57,7 @@ Ampliando a atividade de contatos do nível 1, vamos criar uma agenda que gerenc
         
 
 ---
-- **[2P]** Buscar contatos por substring.
+- **[2.0 P]** Buscar contatos por substring.
 - Se o contato tiver qualquer campo que combine com a string pattern de busca, ele deve ser retornado.
 
         >> search $pattern
@@ -65,13 +65,13 @@ Ampliando a atividade de contatos do nível 1, vamos criar uma agenda que gerenc
         ...
 
 ---
-- **[mE]** Favoritar contatos.
+- **[0.5 E]** Favoritar contatos.
 
         >> fav $nome
         ok
         erro | $nome não encotrado
 
-- **[mE]** Desfavoritar contatos.
+- **[0.5 E]** Desfavoritar contatos.
 
         >> desfav $nome
         ok
@@ -79,7 +79,7 @@ Ampliando a atividade de contatos do nível 1, vamos criar uma agenda que gerenc
         erro | $nome não é favorito
 
 ---
-- **[E]** Pegar favoritos.
+- **[1.0 E]** Pegar favoritos.
 
         >> showFav
         @ $nome1 [$fone1 $desc1][$fone2 $desc2] ...
@@ -87,26 +87,26 @@ Ampliando a atividade de contatos do nível 1, vamos criar uma agenda que gerenc
 
 
 ---
-- **[P]** Inicialize o sistema para que ele já inicie com alguns contatos e telefones.
+- **[1.0 P]** Inicialize o sistema para que ele já inicie com alguns contatos e telefones.
 
 
 ---
 ## Resumo dos pontos
 
-        [ ][1P] addContato
-        [ ][1P] rmContato
-        [ ][1P] addFone
-        [ ][1P] rmFone
-        [ ][1P] mostrar Contatos
-        [ ][2P] busca por padrão
-        [ ][1P] inicialização do sistema
+        [ ][1.0 P] addContato
+        [ ][1.0 P] rmContato
+        [ ][1.0 P] addFone
+        [ ][1.0 P] rmFone
+        [ ][1.0 P] mostrar Contatos
+        [ ][2.0 P] busca por padrão
+        [ ][1.0 P] inicialização do sistema
         [ ]     Total pontos
 
-        [ ][mE] favoritar
-        [ ][mE] desfavoritar
-        [ ][1E] mostrar favoritos
-        [ ][1E] mostrar contatos ordenados
-        [ ]     Total Extras
+        [ ][0.5 E] favoritar
+        [ ][0.5 E] desfavoritar
+        [ ][1.0 E] mostrar favoritos
+        [ ][1.0 E] mostrar contatos ordenados
+        [ ]        Total Extras
 
 
 ## Sugestões
