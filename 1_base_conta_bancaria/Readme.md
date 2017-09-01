@@ -5,20 +5,20 @@ O objetivo dessa atividade é implementar uma classe responsável por gerenciar 
 
 ## Funcionalidades
 
-- **[1P]** Iniciar a conta passando o número da conta. Se a conta já existir, reset todos os valores para uma nova conta.
+- **[1.0 P]** Iniciar a conta passando o número da conta. Se a conta já existir, resete todos os valores para uma nova conta.
 
         >> iniciarConta $numero
         Conta $numero iniciada
 
 ---
-- **[1P]** Ver saldo.
+- **[1.0 P]** Verificar saldo.
 
         >> saldo
         Conta: $numero, Saldo: $valor
 
 ---
-- **[1P]** Realizar operação de saque.
-- **[1E]** Verifique se o valor é positivo e há saldo suficiente.
+- **[1.0 P]** Realizar operação de saque.
+    - **[1.0 E]** Verifique se o valor é positivo e se há saldo suficiente.
 
         >> saque $valor
         sacado $valor
@@ -27,17 +27,17 @@ O objetivo dessa atividade é implementar uma classe responsável por gerenciar 
         erro | valor inválido
 
 ---
-- **[1P]** Realizar operação de depósito.
-- **[1E]** Verifique se o valor é positivo.
+- **[1.0 P]** Realizar operação de depósito.
+    - **[1.0 E]** Verifique se o valor é positivo.
 
         >> deposito $valor
         deposito realizado
 
 ---
-- **[2P]** Retornar o extrato das operações.
-- A descrição pode ser "saque" ou "deposito".
-- Os saques devem ter valor negativo e os depósitos positivos.
-- **[1P]** Mostre o novo saldo resultado de cada operação no sistema na última coluna do extrato.
+- **[2.0 P]** Retornar o extrato das operações.
+    - A descrição pode ser "saque" ou "deposito".
+    - Os saques devem ter valor negativo e os depósitos positivos.
+    - **[1.0 P]** Mostre o novo saldo resultado de cada operação no sistema na última coluna do extrato.
 
         >> extrato
         $descricao1 $valor1 $saldo1
@@ -46,8 +46,8 @@ O objetivo dessa atividade é implementar uma classe responsável por gerenciar 
         $descricaoN $valorN $saldoN
 
 ---
-- **[1E]** Mostre apenas as última N operações do extrato.
-- Se $qtd for 3, por exemplo, mostre as 3 última operações do extrato.
+- **[1.0 E]** Mostrar as últimas N operações do extrato.
+    - Se $qtd for 3, por exemplo, mostre as 3 última operações do extrato.
 
         >> extratoN $qtd
         $descricao1 $valor1 $saldo1
@@ -55,7 +55,7 @@ O objetivo dessa atividade é implementar uma classe responsável por gerenciar 
         $descricao3 $valor3 $saldo3
 
 ----
-- **[1P]** Faça um código de inicialização para que seu sistema já inicie com algumas operações realizadas.
+- **[1.0 P]** Faça um código de inicialização para que seu sistema já inicie com algumas operações realizadas.
 
 
 ## Diagrama de Classes
