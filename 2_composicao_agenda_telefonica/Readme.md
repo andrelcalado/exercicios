@@ -6,7 +6,9 @@ Ampliando a atividade de contatos do nível 1, vamos criar uma agenda que gerenc
 
 ## Funcionalidades
 
-- **[1.0 P]** Deverá adicionar contatos usando um nome.
+O sistema deverá:
+
+- **[1.0 P]** Adicionar contatos usando um nome.
 - Não deve ser possível adicionar dois contatos com o mesmo nome.
 
         >> addContato $nome
@@ -23,7 +25,7 @@ Ampliando a atividade de contatos do nível 1, vamos criar uma agenda que gerenc
         erro | contato não existe
 
 ---
-- **[1.0 P]** Deverá adicionar telefones ao contato.
+- **[1.0 P]** Adicionar telefones ao contato.
 - Telefones tem identificador e número.
 - Identificadores serão strings como (casa | fixo | oi | tim | recado).
 - Não deve ser possível adicionar dois telefones com o mesmo identificador no mesmo contato.
@@ -37,7 +39,7 @@ Ampliando a atividade de contatos do nível 1, vamos criar uma agenda que gerenc
         erro | nome não existe
 
 ---
-- **[1.0 P]** Deverá remover telefones do contato pelo foneid.
+- **[1.0 P]** Remover telefones do contato pelo foneid.
 
         >> rmFone $nome $foneid
         ok
@@ -47,8 +49,8 @@ Ampliando a atividade de contatos do nível 1, vamos criar uma agenda que gerenc
 
 
 ---
-- **[1.0 P]** Mostrar os contatos.
-- **[1.0 E]** Ordene os contatos pelo nome.
+- **[1.0 P]** Mostrar todos os contatos.
+- **[1.0 E]** Ordenar os contatos pelo nome.
 - Se fizer a parte de favoritos, marque os contatos que são favoritados com um @ antes do nome. Se não for favorito use -.
 
         >> showContatos
@@ -79,7 +81,7 @@ Ampliando a atividade de contatos do nível 1, vamos criar uma agenda que gerenc
         erro | $nome não é favorito
 
 ---
-- **[1.0 E]** Pegar favoritos.
+- **[1.0 E]** Mostrar favoritos.
 
         >> showFav
         @ $nome1 [$fone1 $desc1][$fone2 $desc2] ...
