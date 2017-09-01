@@ -9,7 +9,7 @@ Ampliando a atividade de contatos do nível 1, vamos criar uma agenda que gerenc
 O sistema deverá:
 
 - **[1.0 P]** Adicionar contatos usando um nome.
-- Não deve ser possível adicionar dois contatos com o mesmo nome.
+        - Não deve ser possível adicionar dois contatos com o mesmo nome.
 
         >> addContato $nome
         contato adicionado
@@ -26,10 +26,10 @@ O sistema deverá:
 
 ---
 - **[1.0 P]** Adicionar telefones ao contato.
-- Telefones tem identificador e número.
-- Identificadores serão strings como (casa | fixo | oi | tim | recado).
-- Não deve ser possível adicionar dois telefones com o mesmo identificador no mesmo contato.
-- O número deverá conter apenas dígitos.
+        - Telefones tem identificador e número.
+        - Identificadores serão strings como (casa | fixo | oi | tim | recado).
+        - Não deve ser possível adicionar dois telefones com o mesmo identificador no mesmo contato.
+        - O número deverá conter apenas dígitos.
 
         >> addFone $nome $foneid $number 
         ok
@@ -50,8 +50,8 @@ O sistema deverá:
 
 ---
 - **[1.0 P]** Mostrar todos os contatos.
-- **[1.0 E]** Ordenar os contatos pelo nome.
-- Se fizer a parte de favoritos, marque os contatos que são favoritados com um @ antes do nome. Se não for favorito use -.
+                - **[1.0 E]** Ordenar os contatos pelo nome.
+        - Marque os contatos que são favoritados com um @ antes do nome. Se o contato não for favorito use - antes do nome.
 
         >> showContatos
         - $nome1 [$foneid $number][$foneid $number]
@@ -60,7 +60,7 @@ O sistema deverá:
 
 ---
 - **[2.0 P]** Buscar contatos por substring.
-- Se o contato tiver qualquer campo que combine com a string pattern de busca, ele deve ser retornado.
+        - Se o contato tiver qualquer campo que combine com a string pattern de busca, ele deve ser retornado.
 
         >> search $pattern
         - $nome1 [$fone1 $desc1][$fone2 $desc2] ...
