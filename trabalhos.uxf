@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?><diagram program="umlet" version="13.3">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>170</x>
+      <y>210</y>
+      <w>100</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Contato
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>330</x>
+      <y>210</y>
+      <w>140</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Conta Bancária
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>530</x>
+      <y>210</y>
+      <w>150</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Junk Food Machine
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>130</x>
+      <y>410</y>
+      <w>610</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>Agregação
+--
+bg=gray
+layer=-1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>130</x>
+      <y>60</y>
+      <w>610</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>Legenda
+--
+bg=gray
+layer=-1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>130</x>
+      <y>290</y>
+      <w>610</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>Composição
+--
+bg=gray
+layer=-1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>170</x>
+      <y>330</y>
+      <w>100</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Agenda
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>540</x>
+      <y>330</y>
+      <w>140</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Anotações
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>330</x>
+      <y>330</y>
+      <w>150</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Agência
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>550</x>
+      <y>450</y>
+      <w>140</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Trem
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>470</x>
+      <y>330</y>
+      <w>90</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;70.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>390</x>
+      <y>230</y>
+      <w>30</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;100.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>220</x>
+      <y>230</y>
+      <w>30</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;100.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>340</x>
+      <y>450</y>
+      <w>140</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Veterinária
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>160</x>
+      <y>450</y>
+      <w>140</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Ligações
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>220</x>
+      <y>350</y>
+      <w>30</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;100.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>130</x>
+      <y>170</y>
+      <w>610</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>Base
+--
+bg=gray
+layer=-1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>140</x>
+      <y>100</y>
+      <w>160</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Mais fáceis do Nível
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>550</x>
+      <y>100</y>
+      <w>180</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Mais exigentes do Nível
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>290</x>
+      <y>100</y>
+      <w>280</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+Sugestão de Pré-Requisito</panel_attributes>
+    <additional_attributes>260.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+</diagram>
