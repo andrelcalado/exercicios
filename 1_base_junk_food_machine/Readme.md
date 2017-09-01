@@ -1,6 +1,6 @@
 ## Máquina de Vender JunkFood
 
-![Máquina de vender](https://cbsnews3.cbsistatic.com/hub/i/r/2013/06/27/ab03d365-1c50-11e3-9918-005056850598/thumbnail/620x350/bd0d7fca92b09061ea58349420efd7ca/vendingmachine.jpg)
+![Máquina de vender](figura.png)
 
 O objetivo dessa atividade é implementar uma classe responsável por uma máquina de vender JunkFood. Na máquina existem várias espirais. Uma espiral contém uma certa quantidade de produtos com o mesmo tipo e mesmo preço. O usuário coloca o dinheiro, compra o produto e recebe o troco.
 
