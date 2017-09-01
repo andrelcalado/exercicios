@@ -1,5 +1,5 @@
 ## Conta Bancária
-![](imagem.jpg)
+![](imagem.png)
 
 O objetivo dessa atividade é implementar uma classe responsável por gerenciar a conta bancária de um único cliente. Faremos operações de saque, depósito e extrato.
 
