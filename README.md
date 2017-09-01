@@ -1,3 +1,4 @@
+![](images/header.png)
 # Guia de atividades
 - Fica abaixo nossa sugestão de abordagem.
-![](trabalhos.png)
+![](images/trabalhos.png)
