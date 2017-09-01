@@ -1,6 +1,6 @@
-![](http://noticias.universia.com.br/br/images/docentes/d/di/dic/dicas-para-fazer-anotacoes-aula.jpg)
-
 # Serviço de Anotações
+
+![](figura.jpeg)
 
 O objetivo dessa atividade é criar um pequeno serviço de anotações. O sistema
 terá vários usuários que vão logar utilizando login e senha. Cada usuário pode
@@ -9,7 +9,7 @@ armazenar notas de texto contendo título e texto.
 
 # Funcionalidades
 
-- **[1P]** Criar usuário passando username e password.
+- **[1.0 P]** Criar usuário passando username e password.
 - usernames devem ser únicos no sistema.
 
       >> addUser $username $password
