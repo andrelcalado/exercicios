@@ -2,11 +2,11 @@
 
 ![Máquina de vender](figura.png)
 
-O objetivo dessa atividade é implementar uma classe responsável por uma máquina de vender JunkFood. Na máquina existem várias espirais. Uma espiral contém uma certa quantidade de produtos com o mesmo tipo e mesmo preço. O usuário coloca o dinheiro, compra o produto e recebe o troco.
+O objetivo dessa atividade é implementar uma classe responsável por uma máquina de vender JunkFood. Na máquina existem várias espirais. Uma espiral contém uma certa quantidade de produtos do mesmo tipo e mesmo preço. O usuário coloca o dinheiro, compra o produto e recebe o troco.
 
-Ela deve ser capaz de:
+Essa classe deverá ser capaz de:
 
-* **[1P]** Receber dinheiro do usuário.
+* **[1.0 P]** Receber dinheiro do usuário.
 
 ```
 >> inserirDin $valor
@@ -14,7 +14,7 @@ sucesso/erro
 ```
 
 ---
-* **[1P]** Mostrar o saldo da máquina
+* **[1.0 P]** Mostrar o saldo da máquina
 
 ```
 >> saldo
@@ -22,7 +22,7 @@ $saldo Reais
 ```
 
 ---
-* **[1P]** Pedir troco, zerando o saldo da máquina
+* **[1.0 P]** Pedir troco, zerando o saldo da máquina
 
 ```
 >> pedirTroco
@@ -30,8 +30,8 @@ voce retirou $valor Reais
 ```
 
 ---
-* **[1P]** Iniciar a máquina definindo o número de espirais e a quantidade máxima de produtos em uma espiral.
-* Se já havia máquina, então apague tudo e inicie uma nova máquina.
+* **[1.0 P]** Iniciar a máquina definindo o número de espirais e a quantidade máxima de produtos em uma espiral.
+    * Se já houver uma máquina, então apague tudo e inicie uma nova máquina.
 
 ```
 >> iniciar $qtdEspirais $maxProdutos
@@ -39,8 +39,8 @@ ok
 ```
 
 ---
-* **[1P]** O admin pode alterar o nome, a quantidade e o valor de um produto na espiral.
-* **[2E]** Cheque se índice, qtd e valor são válidos e nome não é vazio.
+* **[1.0 P]** Pemitir que o admin possa alterar o nome, a quantidade e o valor de um produto na espiral.
+    * **[2.0 E]** Cheque se índice, qtd e valor são válidos e se nome não é vazio.
 
 ```
 >> alterarEspiral $ind $nome $qtd $valor
@@ -50,9 +50,9 @@ erro | qtd maior que o permitido
 ```
 
 ---
-* **[1P]** O cliente pode pedir um produto de um espiral.
-* **[1E]** Verifique se existe o produto e se o valor é suficiente.
-* Mostre o nome do produto que ele pediu.
+* **[1.0 P]** Permitir que o cliente possa pedir um produto de uma espiral.
+    * **[1.0 E]** Verifique se existe o produto e se o valor do pagamento é suficiente.
+    * Mostre o nome do produto que ele pediu.
 
 ```
 >> comprar $ind
@@ -62,7 +62,7 @@ erro | valor insuficiente
 ```
 
 ---
-* **[1P]** O admin pode mostrar o status completo da maquina
+* **[1.0 P]** Permitir que o admin possa visualizar o status completo da máquina
     * saldo cliente.
     * lucro total.
     * conteúdo de cada espiral.
@@ -77,7 +77,7 @@ ind 1: nome: $nome, qtd: $qtd, valor: $value
 ```
 
 ---
-* **[1P]** Faça um código de inicialização para o sistema já iniciar com alguns produtos nas espirais.
+* **[1.0 P]** Faça um código de inicialização para o sistema já iniciar com alguns produtos nas espirais.
 
 
 ## Dica
