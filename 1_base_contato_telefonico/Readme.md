@@ -30,6 +30,7 @@ Seu sistema deverá:
     - **[1.0 E]** Não aceite dois telefones com o mesmo foneid.
     - **[1.0 E]** Verifique se o número contém apenas dígitos ou os caracteres "()-".
 
+
         >> addFone $foneid $number
         ok
         erro | $foneid duplicado
