@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><diagram program="umlet" version="13.3">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>370</x>
+      <y>140</y>
+      <w>170</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>Telefone
+bg=yellow
+--
++ foneid : String
++ numero : String
+--
++ validar() : boolean</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>130</y>
+      <w>330</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>Contato
+bg=yellow
+--
+- nome : String
+- email : String
+- telefones : List&lt;Telefone&gt;
+--
++ addFone(telefone : Telefone) : boolean
++ rmFone(foneid : String) : boolean</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>320</x>
+      <y>180</y>
+      <w>70</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;50.0;10.0</additional_attributes>
+  </element>
+</diagram>
