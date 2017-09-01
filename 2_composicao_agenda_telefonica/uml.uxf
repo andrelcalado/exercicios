@@ -30,16 +30,19 @@
       <x>440</x>
       <y>240</y>
       <w>330</w>
-      <h>120</h>
+      <h>150</h>
     </coordinates>
     <panel_attributes>Agenda
 bg=yellow
 --
 - contatos : List&lt;Contato&gt;
+- favoritos : List&lt;Contato&gt;
 --
 + addContato(contato : Contato) : boolean
 + rmContato(nome : String) : boolean
-+ search(pattern : String) : List&lt;Contato&gt; 
++ search(pattern : String) : List&lt;Contato&gt;
++ favoritar(nome : String) : boolean
++ desfavoritar(nome : String) : boolean
 </panel_attributes>
     <additional_attributes/>
   </element>
@@ -56,6 +59,7 @@ bg=yellow
 --
 - nome : String
 - fones : List&lt;Fone&gt;
+- isFavorited : boolean
 --
 + addFone(fone : Fone) : boolean
 + rmFone(foneid : String) : boolean
