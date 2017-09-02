@@ -18,7 +18,7 @@ armazenar notas de texto contendo título e texto.
 
 ---
 
-- **[1P]** Mostrar os usuários do sistema.
+- **[1.0 P]** Mostrar os usuários do sistema.
 
       >> showUsers
       $username1
@@ -27,7 +27,7 @@ armazenar notas de texto contendo título e texto.
 
 ----
 
-- **[2P]** login/logout na conta de um usuário
+- **[2.0 P]** login/logout na conta de um usuário.
 
       >> login $username $senha
       ok
@@ -39,7 +39,7 @@ armazenar notas de texto contendo título e texto.
       erro | nenhum usuário logado
 
 ---
-- **[1P]** Mudar password
+- **[1.0 P]** Mudar password.
 
       >> changePass $oldpass $newpass
       ok
@@ -49,10 +49,12 @@ armazenar notas de texto contendo título e texto.
 ---
 - **[1P]** Adicionar uma nota com título e texto.
 - **[2E]** Título deve ter uma palavra, mas o texto pode conter várias palavras.
+- Não deve ser possível inserir duas notas com o mesmo título para o mesmo usuário.
 
       >> addNote $titulo $texto
       ok
       erro | ninguem logado
+      erro | titulo ja existe
 
 ---
 - **[1E]** Apagar uma nota dado o título.
